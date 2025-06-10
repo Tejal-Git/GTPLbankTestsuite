@@ -45,15 +45,16 @@ class Test_001_Login:
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
         act_title=self.driver.title
-        if act_title==" GTPL Bank Manager HomePage ":
+        if act_title=="GTPL Bank Manager HomePage":
             assert True
             self.driver.close()
             self.logger.info("Login test passed")
         else:
             self.driver.save_screenshot(".\\Screenshots\\"+"test_login.png")
-            self.driver.close()
-            self.driver.error("Login test failed")
             assert False
+            # self.driver.close()
+            # self.driver.error("Login test failed")
+
 
 webbrowser.open("report.html")
 
