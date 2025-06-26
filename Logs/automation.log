@@ -125,3 +125,9 @@
 2025-06-23 22:41:40: INFO: Test_002_DDT_Login test is passed
 2025-06-23 22:41:40: INFO: End of the login DDT test
 2025-06-23 22:41:40: INFO: Test_002_DDT_Login test completed
+2025-06-26 15:12:33: INFO: Starting Test_003_DDT_Login
+2025-06-26 15:12:42: INFO: Login passed as expected with username: mngr624599
+2025-06-26 15:12:45: INFO: Login failed as expected with username: mngr624590
+2025-06-26 15:12:47: INFO: Login failed as expected with username: mngr624599
+2025-06-26 15:12:49: INFO: Login failed as expected with username: mngr624590
+2025-06-26 15:12:49: INFO: DDT Login Test Passed
