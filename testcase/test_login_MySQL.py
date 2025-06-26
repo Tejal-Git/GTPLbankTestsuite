@@ -75,6 +75,7 @@ class Test_003_DDT_Login:
                         self.logger.warning("Page title mismatch")
                         lst_status.append("fail")
 
+        con.close()
 
         except Exception as e:
             self.logger.error(f"Database connection failed: {str(e)}")
